@@ -1,0 +1,5 @@
+cadena = input(f"Introduzca una cadena:  ")
+print(f"\nLos 2 primeros caracteres son: {cadena[0:2]}")
+print(f"Los 3 últimos caracteres son: {cadena[-3:]}")
+print(f"La cadena cada 2 caracteres: {cadena[::2]}")
+print(f"Sentido normal y sentido inverso: {cadena[:]} --- {cadena[::-1]}")
